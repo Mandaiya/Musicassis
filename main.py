@@ -37,10 +37,10 @@ from core import (
 
 
 REPO = """
-🤖 **Music Player**
+🤖 **NewBotPlay**
 
-- Repo: [GitHub](https://github.com/AsmSafone/MusicPlayer)
-- License: AGPL-3.0-or-later
+- Repo: [Telegram](https://t.me/universe_we_are)
+- BIO Data : Maintained by ^ Universe ^ 
 """
 
 if config.BOT_TOKEN:
@@ -62,10 +62,10 @@ async def repo(_, message: Message):
     await message.reply_text(REPO, disable_web_page_preview=True)
 
 
-@client.on_message(filters.command("ping", config.PREFIXES) & ~filters.bot)
+@client.on_message(filters.command("ding", config.PREFIXES) & ~filters.bot)
 @handle_error
 async def ping(_, message: Message):
-    await message.reply_text(f"🤖 **Pong!**\n`{pytgcalls.ping} ms`")
+    await message.reply_text(f"🤖 **Dongu!**\n`{pytgcalls.ping} ms`")
 
 
 @client.on_message(filters.command("start", config.PREFIXES) & ~filters.bot)
@@ -266,7 +266,7 @@ async def resume_vc(_, message: Message, lang):
 
 
 @client.on_message(
-    filters.command(["stop", "leave"], config.PREFIXES) & ~filters.private
+    filters.command(["stop", "leave", "end"], config.PREFIXES) & ~filters.private
 )
 @register
 @language
