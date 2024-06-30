@@ -55,7 +55,7 @@ except BaseException:
 
 themes = [
     "Theme001",
-    "black",
+    "Theme002",
     "red",
     "green",
     "grey",
