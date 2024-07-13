@@ -1,10 +1,10 @@
 {
-    "update": "🔄 | **Updating...**",
-    "restart": "✅ | **The Tools has been Restarted!**",
-    "downloading": "🔄 | **Gathering information 👀...**",
-    "errorMessage": "❌ | **An Slight ERROR 404 Occurred!**",
-    "notAllowed": "❌ | **You're Not Allowed to Perform This Action!**",
-    "invalidFile": "❌ | **Invalid Command/File!**",
+    "update": "🔄 | Nc | **Updating...**",
+    "restart": "✅ | Nc | **The Tools has been Restarted!**",
+    "downloading": "📨 | Nc | **Gathering information 👀...**",
+    "errorMessage": "❌ | Nc | **An Slight ERROR 404 Occurred!**",
+    "notAllowed": "❌ | Nc | **You're Not Allowed to Perform This Action!**",
+    "invalidFile": "❌ | Nc | **Invalid Command/File!**",
     "langSet": "🗣 | **Language Set To `%s`!**",
     "loopMode": "🔂 | **Repeat Mode  %s!**",
     "adminsOnly": "👮 | **This Command is Used by Admins only%s!**",
@@ -14,7 +14,7 @@
     "notActive": "❌ | **No Active Group Call!**",
     "notPlaying": "❌ | **The Play is Empty!**",
     "spotifyNotEnabled": "❌ | **Spotify Is Not Enabled!**",
-    "playing": "▶️ **[%s](%s)**\n\n⏱ **Timer On:** `%s`\n\n💬 **Group ID:** `%s`\n\n🎧 **Processed By:** '%s'\n\n **✬ 〄 Universe Net-works 〄 ✬:**",
+    "playing": "🎶 **[%s](%s)**\n\n⏱ **Timer On:** `%s`\n\n💬 **Group ID:** `%s`\n\n🎧 **Processed By:** '%s'\n\n **✬ 〄 Universe Net-works 〄 ✬:**",
     "paused": "⏸ | **Paused Stream! --->> **",
     "resumed": "▶️ | **Resumed Stream! -->> **",
     "muted": "🔇 | **Muted Stream! -->> **",
@@ -24,7 +24,7 @@
     "queueExported": "✅ | **%d Songs Exported!**",
     "queueImported": "✅ | **%d Songs Imported!**",
     "replyToAFile": "👀 | **Reply To An Audio/Video!**",
-    "addedToQueue": "➕ | **[%s](%s) /n/nIs Queued In Position %d**!",
-    "startText": "🛡️ **Hello/Vanakkam /n%s**,\n\n Welcome to the NewPlayer!! 🎶\n you can able to Stream : radio link : youtube songs and playlist : Spotify Playlists\n\n Here is the new one - where you can switch the mode of video and audio 💫!\n\n  [✬〄 Universe Net-works 〄✬](https://t.me/we_are_universee)",
-    "helpText": "👀 **Available Commands:**\n\n• <prefixding\nUsage: `check if sleeping or not`\n\n• <prefix>repo\nUsage: `show the bot telegram code`\n\n• <prefix>start | <prefix>help\nUsage: `show the helping commands`\n\n• <prefix>mode | <prefix>switch\nUsage: `switch the stream mode (audios/videos)`\n\n• <prefix>p | <prefix>play [song name | youtube link]\nUsage: `play a song in vc, if already playing add to queue`\n\n• <prefix>radio | <prefix>stream [radio url | stream link]\nUsage: `play a live stream in vc, if already playing add to queue`\n\n• <prefix>pl | <prefix>playlist [youtube playlist link]\nUsage: `play the whole youtube playlist at once`\n\n• <prefix>skip | <prefix>next\nUsage: `skip to the next song`\n\n• <prefix>m | <prefix>mute\nUsage: `mute the current stream`\n\n• <prefix>um | <prefix>unmute\nUsage: `unmute the muted stream`\n\n• <prefix>ps | <prefix>pause\nUsage: `pause the current stream`\n\n• <prefix>rs | <prefix>resume\nUsage: `resume the paused stream`\n\n• <prefix>list | <prefix>queue\nUsage: `show the songs in the queue`\n\n• <prefix>mix | <prefix>shuffle\nUsage: `shuffle the queued playlist`\n\n• <prefix>loop | <prefix>repeat\nUsage: `enable or disable the loop mode`\n\n• <prefix>lang | language [language code]\nUsage: `set the bot language in a group' |`\n\n• <prefix>stop | <prefix>leave\nUsage: `leave from vc and clear the queue`\n\n• <prefix>restart | <prefix>update\nUsage: `restart and update your music player`\n\n© ⋬ Universe ⋭"
+    "addedToQueue": "➕ | Nc | **[%s](%s) /n/nIs Queued In Position %d**!",
+    "startText": "🛡️ **Hello/Vanakkam /n%s**,\n\n Welcome to the NewPlayer!! 🎶\n you can able to Stream : radio link : youtube songs and playlist : Spotify Playlists\n\n Here is the new one - where you can switch the mode of video and audio 💫!\n\n  ✬〄  [Universe Net-works](https://t.me/we_are_universee) 〄✬",
+    "helpText": "👀 **Available Commands:**\n\n• <prefixding\nUsage: `check if sleeping or not`\n\n• <prefix>repo\nUsage: `show the bot telegram code`\n\n• <prefix>start | <prefix>help\nUsage: `show the helping commands`\n\n• <prefix>mode | <prefix>switch\nUsage: `switch the stream mode (audios/videos)`\n\n• <prefix>p | <prefix>play [song name | youtube link]\nUsage: `play a song in vc, if already playing add to queue`\n\n• <prefix>radio | <prefix>stream [radio url | stream link]\nUsage: `play a live stream in vc, if already playing add to queue`\n\n• <prefix>pl | <prefix>playlist [youtube playlist link]\nUsage: `play the whole youtube playlist at once`\n\n• <prefix>skip | <prefix>next\nUsage: `skip to the next song`\n\n• <prefix>m | <prefix>mute\nUsage: `mute the current stream`\n\n• <prefix>um | <prefix>unmute\nUsage: `unmute the muted stream`\n\n• <prefix>ps | <prefix>pause\nUsage: `pause the current stream`\n\n• <prefix>rs | <prefix>resume\nUsage: `resume the paused stream`\n\n• <prefix>list | <prefix>queue\nUsage: `show the songs in the queue`\n\n• <prefix>mix | <prefix>shuffle\nUsage: `shuffle the queued playlist`\n\n• <prefix>loop | <prefix>repeat\nUsage: `enable or disable the loop mode`\n\n• <prefix>lang | language [language code]\nUsage: `set the bot language in a group' |`\n\n• <prefix>stop | <prefix>leave\nUsage: `leave from vc and clear the queue`\n\n• <prefix>restart | <prefix>update\nUsage: `restart and update your music player`\n\n© ⋬ SVD ⋭"
 }
